@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=">Юридическая компания Лекред - занимается юридическим сопровождением и защитой прав и интересов физических и юридических лиц. Сфера наших услуг: судебная практика, корпоративное право, земельное право, трудовое право, банковское право, контрактное право, семейное право, абонентское обслуживание">
+    <!-- <meta name="robots" content="none"> -->
+    <meta name="Author" content="Olezhansky">
+    <meta name="Copyright" content="Olezhansky">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Roboto:400,500&display=swap&subset=cyrillic"
+    rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Юридическая компания Лекред</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header class="header section" id="main">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__top-inner">
+          <div class="header__logo">
+            <a href="">
+              <img src="img/main-logo.png" alt="">
+            </a>
+          </div>
+          <div class="header__contacts">
+            <div class="header__phone-menu">
+              <a class="header__phone" href="tel:+380731646186">+38(068)3922996</a>
+                <div class="header__phone-top">
+                  <a href="tel:+380731646186">+38(095)1697147</a>
+                </div>
+                <div class="header__phone-bottom">
+                  <a href="tel:+380731646186">+38(093)3148608</a>
+                </div>
+            </div>
+            <a class="header__facebook" href="https://www.facebook.com/lecred.ua.71" target="_blank"></a>
+            <a class="header__instagram" href="https://www.instagram.com/lecred_ua/" target="_blank"></a>
+            <a class="header__telegram" href="#">
+            </a>
+            <a class="header__email" href="mailto:lecred.ua@gmail.com">lecred.ua@gmail.com</a>
+          </div>
+          <div class="header__btn">
+            <a href="" class="wave-btn" data-fancybox data-src="#modal" href="javascript:;" class="btn btn-primary">
+              <span class="wave-btn__text lng-topBtn">Бесплатная консультация</span>
+              <span class="wave-btn__waves"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__menu">
+      <div class="header__menu-inner">
+        <div class="container">
+          <nav class="menu">
+            <div class="menu__networks">
+             <a class="menu__networks-facebook" href="https://www.facebook.com/lecred.ua.71" target="_blank">
+               <img src="img/facebook.png" alt="">
+             </a>
+             <a class="menu__networks-instagram" href="https://www.instagram.com/lecred_ua/" target="_blank">
+               <img src="img/instagram.png" alt="">
+             </a>
+             <a class="menu__networks-telegram" href="">
+               <img src="img/telegram.png" alt="">
+             </a>
+            
+            </div>
+            <div class="burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <!-- <div class="header__menu-burger">
+              <span class="header__menu-burger-line"></span>
+              <span class="header__menu-burger-line"></span>
+              <span class="header__menu-burger-line"></span>
+            </div> -->
+            <!-- menu__top-link--active -->
+            <ul class="menu__top">
+              <li class="menu__top-item"><a class="menu__top-link lng-menu menu__top-link--active" href="#main">Главная</a></li>
+              <li class="menu__top-item"><a class="menu__top-link lng-menu2" href="#about">О нас</a></li>
+              <li class="menu__top-item"><a class="menu__top-link lng-menu3" href="#principles">Принципы работы</a></li>
+              <li class="menu__top-item"><a class="menu__top-link lng-menu4" href="#services">Услуги</a></li>
+              <li class="menu__top-item"><a class="menu__top-link lng-menu5" href="#why">Почему мы</a></li>
+              <li class="menu__top-item"><a class="menu__top-link lng-menu6" href="#contacts">Контакты</a></li>
+              <li class="menu__top-item"><a class="menu__top-link lng-menu7" href="#form">Консультація</a></li>
+              <li class="menu__top-item menu__top-item--list"><a class="menu__top-link lng-menu8" href="#">Інформація</a>
+                <ul class="menu__drop">
+                  <li class="menu__drop-item"><a class="menu__drop-link lng-menuDrop1" href="https://zakon.rada.gov.ua/laws" target="_blank">Законодавство України</a></li>
+                  <li class="menu__drop-item"><a class="menu__drop-link lng-menuDrop2" href="https://reyestr.court.gov.ua/" target="_blank">Єдиний державний реєстр судових рішень</a></li>
+                  <li class="menu__drop-item"><a class="menu__drop-link lng-menuDrop3" href="https://court.gov.ua/fair" target="_blank">Інформація щодо стадій розгляду судових справ</a></li>
+                  <li class="menu__drop-item"><a class="menu__drop-link lng-menuDrop4" href="https://kap.minjust.gov.ua/" target="_blank">Державний реєстр речових прав на нерухоме майно</a></li>
+                  <li class="menu__drop-item"><a class="menu__drop-link lng-menuDrop5" href="https://map.land.gov.ua/kadastrova-karta" target="_blank">Публічна кадастрова карта України</a></li>
+                  <li class="menu__drop-item"><a class="menu__drop-link lng-menuDrop6" href="https://my.gov.ua/" target="_blank">Єдиний державний портал адміністративних послуг</a></li>
+                  <li class="menu__drop-item"><a class="menu__drop-link lng-menuDrop7" href="https://clarity-project.info/" target="_blank">База даних і система аналітики публічних закупівель ProZorro</a></li>
+                </ul>
+                </li>
+                <li class="header__select-wrapper">
+                  <div class="header__select">
+                    <button class="dropdown-btn">EN</button>
+                    <ul class="dropdown__list">
+                      <li data-value="en" class="dropdown__list-item">EN</li>
+                      <li data-value="ru" class="dropdown__list-item">RU</li>
+                      <li data-value="ua" class="dropdown__list-item">UA</li>
+                    </ul>
+                    <!-- <input type="text" class="dropdown_input" name="dropdown_input" value="">               -->
+                  </div>
+                </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+    <section class="slider">
+    <div class="container">
+      <div class="slider__inner" data-aos="zoom-in">
+        <div class="slider__item">
+          <div class="slider__item-content">
+            <div class="slider__title">
+              <h2 class="lng-sliderTitle1">ЮРИДИЧЕСКАЯ ЗАЩИТА ВАШИХ ПРАВ И ИНТЕРЕСОВ</h2>
+            </div>
+            <a class="slider__btn lng-sliderBtn1" href="#" data-fancybox data-src="#modal" href="javascript:;"
+              class="btn btn-primary">Оставить заявку</a>
+          </div>
+        </div>
+        <div class="slider__item">
+          <div class="slider__item-content">
+            <div class="slider__title">
+              <h2 class="lng-sliderTitle2">АНАЛИЗ ВАШЕЙ СИТУАЦИИ В ТЕЧЕНИИ 24 ЧАСОВ</h2>
+            </div>
+            <div class="slider__text">
+            </div>
+            <a class="slider__btn lng-sliderBtn2" href="#" data-fancybox data-src="#modal" href="javascript:;"
+              class="btn btn-primary">Оставить заявку</a>
+          </div>
+        </div>
+        <div class="slider__item">
+          <div class="slider__item-content">
+            <div class="slider__title">
+              <h2 class="lng-sliderTitle3">Прозрачные и честные условия сотрудничества</h2>
+            </div>
+            <div class="slider__text">
+
+            </div>
+            <a class="slider__btn lng-sliderBtn3" href="#" data-fancybox data-src="#modal" href="javascript:;"
+              class="btn btn-primary">Оставить заявку</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <section class="about section" id="about">
+    <div class="container">
+    <div class="about__inner">
+      <div class="about__content">
+        <h2 class="title about__title lng-aboutTittle" data-aos="fade-down">
+          О компании
+        </h2>
+        <div class="about__text">
+          <p class="lng-aboutP1">ЮК "LECRED" – група юристов, которая занимается юридическим сопровождением и защитой прав и интересов физических и юридических лиц. 
+          По статистике в Украине сегодня каждое пятое лицо имеет юридические вопросы или сложности, а именно:</p>
+          <p class="lng-aboutP2" data-aos="fade-left">-является «заложником» кабальных условий договоров, по которым сумма насчитанных процентов и штрафов в десятки раз больше фактически занятых денег;</p>
+          <p class="lng-aboutP3" data-aos="fade-left">-потерял надежду вернуть одолженные деньги;</p>
+          <p class="lng-aboutP4" data-aos="fade-left">-не знает каким образом законно разобраться с проверяющими органами или обжаловать их действия;</p>
+          <p class="lng-aboutP5" data-aos="fade-left">-имеет открытые судебные производства;</p>
+          <p class="lng-aboutP6" data-aos="fade-left">-другие ситуации.</p>
+          <p class="lng-aboutP7">В случае если вышеописанная ситуация случилась с Вами, не стоит опускать руки – выход есть...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+    <section class="principles section" id="principles">
+    <div class="container">
+      <div class="principles__inner">
+        <h2 class=" title principles__title lng-principlesTitle" data-aos="fade-down">
+          Основные принципы работы
+        </h2>
+        <div class="principles__items">
+          <div class="principles__item" data-aos="fade-right">
+            <div class="principles__item-text lng-principlesText1">
+              Цель - обеспечение качествой юридической поддержки Клиента.
+            </div>
+          </div>
+          <div class="principles__item" data-aos="zoom-in">
+            <div class="principles__item-text lng-principlesText2">
+              Никаких гарантий до момента полного изучения и анализа Вашей проблемы.
+            </div>
+          </div>
+          <div class="principles__item" data-aos="fade-left">
+            <div class="principles__item-text lng-principlesText3">
+              Бесплатный анализ и описание всех рисков, обеспечивает Вам возможность
+              объективно оценить необходимость сотрудничества.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <section class="services section" id="services">
+    <div class="container">
+      <div class="services__inner">
+        <div class="title services__title lng-servicesMainTitle" data-aos="fade-down">
+          Сфера наших услуг
+        </div>
+        <div class="services__text" data-aos="fade-left">
+        </div>
+        <div class="services__items">
+          <div class="services__item" data-aos="fade-down-right">
+            <div class="services__item-text lng-servicesTitle1">
+              Судебная практика
+            </div>
+            <div class="services__item-btn">
+              <a data-fancybox data-src="#modal__services-1" href="javascript:;" class="btn btn-primary lng-servicesBtn1">Подробней</a>
+              <div id="modal__services-1">
+                <h2 class="lng-servicesTitleItem1">Судебная практика</h2>
+                <h3 class="lng-servicesSubTitleItem1">Защита Ваших интересов вне зависимости от стадии судебного процесса</h3>
+                <div class="modal__services-text-1">
+                  <p class="lng-servicesText1Item1">предоставление консультаций по вопросам судебных рисков при заключении сделок, анализ судебных дел контрагента;</p>
+                  <p class="lng-servicesText2Item1">досудебное урегулирование споров;</p>
+                  <p class="lng-servicesText3Item1">подготовка юридических заключений относительно перспектив судебного рассмотрения и стратегии
+                    судебного дела;</p>
+                  <p class="lng-servicesText4Item1">представительство и защита интересов Клиента в судах всех инстанций на любой стадии судебного процесса (гражданские, хозяйственные и административные дела);</p>
+                  <p class="lng-servicesText5Item1">представительство и защита интересов Клиента на стадии исполнения судебных решений.</p>
+                </div>
+                <div class="modal__services-btn-1">
+                  <a href="#" data-fancybox data-src="#modal" href="javascript:;" class="btn btn-primary lng-servicesBtnItem1">Оставить заявку</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="services__item" data-aos="fade-down">
+            <div class="services__item-text lng-servicesTitle2">
+              Корпоративное право
+            </div>
+            <div class="services__item-btn">
+              <div class="services__item-btn">
+                <a data-fancybox data-src="#modal__services-2" href="javascript:;" class="btn btn-primary lng-servicesBtn2">Подробней</a>
+                <div id="modal__services-2">
+                  <h2 class="lng-servicesTitleItem2">Корпоративное право</h2>
+                  <h3 class="lng-servicesSubTitleItem2">Создание, реорганизация и ликвидация юридических лиц</h3>
+                  <div class="modal__services-text-2">
+                    <p class="lng-servicesText1Item2">регистрация компании в Украине и структурирование бизнеса;</p>
+                    <p class="lng-servicesText2Item2">разработка и анализ корпоративных договоров;</p>
+                    <p class="lng-servicesText3Item2">разработка уставов и других внутренних документов компаний;</p>
+                    <p class="lng-servicesText4Item2">консультирование по вопросам корпоративного управления компанией, возможности его усовершенствования;</p>
+                    <p class="lng-servicesText5Item2">правовое сопровождение интересов клиентов в корпоративных спорах</p>
+                    <p class="lng-servicesText6Item2">юридическое оформление изменений в учредительные документы или иных изменений, связанных с деятельностью юридических лиц, в частности, в связи с изменением размера уставного капитала, изменением состава участников, изменением органов управления, реорганизацией юридических лиц (преобразование, разделение, выделение, присоединение, слияние) и др.</p>
+                  </div>
+                  <div class="modal__services-btn-2">
+                    <a href="#" data-fancybox data-src="#modal" href="javascript:;" class="btn btn-primary lng-servicesBtnItem2">Оставить
+                      заявку</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="services__item" data-aos="fade-down">
+            <div class="services__item-text lng-servicesTitle3">
+              Земельное право
+            </div>
+            <div class="services__item-btn">
+              <div class="services__item-btn">
+                <a data-fancybox data-src="#modal__services-3" href="javascript:;" class="btn btn-primary lng-servicesBtn3">Подробней</a>
+                <div id="modal__services-3">
+                  <h2 class="lng-servicesTitleItem3">Земельное право</h2>
+                  <h3 class="lng-servicesSubTitleItem3">Представительство и консультирование Клиента по реализации прав на землю</h3>
+                  <div class="modal__services-text-3">
+                    <p class="lng-servicesText1Item3">сопровождение договоров покупки/аренды/дарения земельного участка;</p>
+                    <p class="lng-servicesText2Item3">юридическое оформление права на земельный участок;</p>
+                    <p class="lng-servicesText3Item3">помощь при согласовании каких-либо изменений в правах на объект;</p>
+                    <p class="lng-servicesText4Item3">предоставления индивидуальных консультаций в сфере земельного права;</p>
+                    <p class="lng-servicesText5Item3">правовое сопровождение государственной регистрации земельного участка;</p>
+                    <p class="lng-servicesText6Item3">оформление прав на земельный участок с получением соответствующих правоустанавливающих документов и их государственная регистрация;</p>
+                    <p class="lng-servicesText7Item3">другие вопросы, которые возникают при управлении земельным участком.</p>
+                  </div>
+                  <div class="modal__services-btn-3">
+                    <a href="#" data-fancybox data-src="#modal" href="javascript:;" class="btn btn-primary lng-servicesBtnItem3">Оставить
+                      заявку</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="services__item" data-aos="fade-down-left">
+            <div class="services__item-text lng-servicesTitle4">
+              Трудовое право
+            </div>
+            <div class="services__item-btn">
+              <div class="services__item-btn">
+                <a data-fancybox data-src="#modal__services-4" href="javascript:;" class="btn btn-primary lng-servicesBtn4">Подробней</a>
+                <div id="modal__services-4">
+                  <h2 class="lng-servicesTitleItem4">Трудовое право</h2>
+                  <h3 class="lng-servicesSubTitleItem4">Консультирование по вопросам защиты прав, связанных с трудовым законодательством</h3>
+                  <div class="modal__services-text-4">
+                    <p class="lng-servicesText1Item4">предоставление консультаций в отношении форм и видов трудовых соглашений, порядка заключения и расторжения трудовых соглашений;</p>
+                    <p class="lng-servicesText2Item4">разработка проектов коллективных договоров;</p>
+                    <p class="lng-servicesText3Item4">подготовка проектов трудовых контрактов и договоров;</p>
+                    <p class="lng-servicesText4Item4">разработка проектов локальных актов юридических лиц (например, правила внутреннего трудового распорядка, положения о персонале, положение об оплате труда, должностные инструкции и др.);</p>
+                    <p class="lng-servicesText5Item4">составление проектов приказов, документов, регламентирующих порядок поощрений и привлечения к ответственности работников;</p>
+                    <p class="lng-servicesText6Item4">предоставление консультаций по вопросам увольнения и (или) сокращения персонала;</p>
+                    <p class="lng-servicesText7Item4">разработка наиболее эффективных моделей (механизмов) защиты работодателей от возможных рисков, связанных с разглашением сотрудниками конфиденциальной информации;</p>
+                    <p class="lng-servicesText8Item4">представление интересов работодателя при проверках, осуществляющихся контролирующими органами, по вопросам использования наемного труда;</p>
+                    <p class="lng-servicesText9Item4">представительство интересов сторон при разрешении трудовых споров в суде.</p>
+                  </div>
+                  <div class="modal__services-btn-4">
+                    <a href="#" data-fancybox data-src="#modal" href="javascript:;" class="btn btn-primary lng-servicesBtnItem4">Оставить
+                      заявку</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="services__item" data-aos="fade-up-right">
+            <div class="services__item-text lng-servicesTitle5">
+              Банковское право
+            </div>
+            <div class="services__item-btn">
+              <div class="services__item-btn">
+                <a data-fancybox data-src="#modal__services-5" href="javascript:;" class="btn btn-primary lng-servicesBtn5">Подробней</a>
+                <div id="modal__services-5">
+                  <h2 class="lng-servicesTitleItem5">Банковское право</h2>
+                  <h3 class="lng-servicesSubTitleItem5">Представление физических лиц в спорах с банками и финансовыми организациями</h3>
+                  <div class="modal__services-text-5">
+                    <p class="lng-servicesText1Item5">юридическое сопровождение защиты должников перед банками и другими финансовыми организациями;</p>
+                    <p class="lng-servicesText2Item5">взыскание депозитной задолженности;</p>
+                    <p class="lng-servicesText3Item5">консультирование по оценке рисков банковских договоров.</p>
+                  </div>
+                  <div class="modal__services-btn-5">
+                    <a href="#" data-fancybox data-src="#modal" href="javascript:;" class="btn btn-primary lng-servicesBtnItem5">Оставить
+                      заявку</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="services__item" data-aos="fade-up">
+            <div class="services__item-text lng-servicesTitle6">
+              Контрактное право
+            </div>
+            <div class="services__item-btn">
+              <div class="services__item-btn">
+                <a data-fancybox data-src="#modal__services-6" href="javascript:;" class="btn btn-primary lng-servicesBtn6">Подробней</a>
+                <div id="modal__services-6">
+                  <h2 class="lng-servicesTitleItem6">Контрактное право</h2>
+                  <h3 class="lng-servicesSubTitleItem6">Снижение и устранение рисков, связанных с договорными обязательствами Клиента</h3>
+                  <div class="modal__services-text-6">
+                    <p class="lng-servicesText1Item6">консультирование и подготовка всех видов договоров, включая внешнеэкономические договора;</p>
+                    <p class="lng-servicesText2Item6">участие в переговорах с партнерами и/или контрагентами клиента, связанных с заключением, изменением, выполнением либо расторжением договоров;</p>
+                    <p class="lng-servicesText3Item6">юридическая экспертиза проектов договоров, предлагаемых клиенту для подписания;</p>
+                    <p class="lng-servicesText4Item6">консультирование относительно оптимизации налогообложения и таможенных сборов при осуществлении сделок;</p>
+                    <p class="lng-servicesText5Item6">индивидуальная разработка специальных договорных конструкций, не предусмотренных действующим законодательством Украины;</p>
+                    <p class="lng-servicesText6Item6">консультирование и юридическое сопровождение процедур получения лицензий, патентов, разрешений, свидетельств и иных документов, необходимых для осуществления договорной деятельности;</p>
+                    <p class="lng-servicesText7Item6">составление арбитражных оговорок, эффективных способов обеспечения обязательств, а также иных юридических механизмов защиты интересов клиента в договорных отношениях;</p>
+                    <p class="lng-servicesText8Item6">комплексное сопровождение внешнеэкономической деятельности;</p>
+                    <p class="lng-servicesText9Item6">подготовка, юридических справок, заключений;</p>
+                    <p class="lng-servicesText10Item6">представительство интересов клиента в случае возникновения споров с контрагентами, органами государственной власти и местного самоуправления, как на территории Украины, так и за ее пределами.</p>
+                  </div>
+                  <div class="modal__services-btn-6">
+                    <a href="#" data-fancybox data-src="#modal" href="javascript:;" class="btn btn-primary lng-servicesBtnItem6">Оставить
+                      заявку</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="services__item" data-aos="fade-up">
+            <div class="services__item-text lng-servicesTitle7">
+              Семейное право
+            </div>
+            <div class="services__item-btn">
+              <div class="services__item-btn">
+                <a data-fancybox data-src="#modal__services-7" href="javascript:;" class="btn btn-primary lng-servicesBtn7">Подробней</a>
+                <div id="modal__services-7">
+                  <h2 class="lng-servicesTitleItem7">Семейное право</h2>
+                  <h3 class="lng-servicesSubTitleItem7">Представление интересов во всех основных вопросах, связанных с семейным законодательством</h3>
+                  <div class="modal__services-text-7">
+                    <p class="lng-servicesText1Item7">признание брака недействительным;</p>
+                    <p class="lng-servicesText2Item7">расторжение брака;</p>
+                    <p class="lng-servicesText3Item7">определение места жительства ребенка;</p>
+                    <p class="lng-servicesText4Item7">лишение родительских прав;</p>
+                    <p class="lng-servicesText5Item7">взыскание алиментов;</p>
+                    <p class="lng-servicesText6Item7">cоставление брачного договора (контракта).</p>
+                  </div>
+                  <div class="modal__services-btn-7">
+                    <a href="#" data-fancybox data-src="#modal" href="javascript:;" class="btn btn-primary lng-servicesBtnItem7">Оставить
+                      заявку</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="services__item" data-aos="fade-up-left">
+            <div class="services__item-text lng-servicesTitle8">
+              Абонентское обслуживание
+            </div>
+            <div class="services__item-btn">
+              <a data-fancybox data-src="#modal__services-8" href="javascript:;" class="btn btn-primary lng-servicesBtn8">Подробней</a>
+              <div id="modal__services-8">
+                <h2 class="lng-servicesTitleItem8">Абонентское обслуживание</h2>
+                <h3 class="lng-servicesSubTitleItem8">Постоянная работа по основным юридическим вопросам с Клиентом</h3>
+                <div class="modal__services-text-8">
+                  <p class="lng-servicesText1Item8">подготовка проектов внутренних документов;</p>
+                  <p class="lng-servicesText2Item8">юридическое моделирование бизнес-процессов;</p>
+                  <p class="lng-servicesText3Item8">разработка концепций договорного сопровождения текущих бизнес-процессов;</p>
+                  <p class="lng-servicesText4Item8">юридическая экспертиза хозяйственно-правовых и гражданско-правовых договоров;</p>
+                  <p class="lng-servicesText5Item8">подготовка претензий и ответов на претензии по договорным правоотношениям;</p>
+                  <p class="lng-servicesText6Item8">юридическое сопровождение применения мер обеспечения выполнения обязательств;</p>
+                  <p class="lng-servicesText7Item8">юридическое сопровождение изменения и прекращения договорных отношений;</p>
+                  <p class="lng-servicesText8Item8">аудит договорно-правовых процессов и документов;</p>
+                  <p class="lng-servicesText9Item8">анализ запланированных бизнес-проектов на соответствие требованиям законодательства;</p>
+                  <p class="lng-servicesText10Item8">предоставление рекомендаций по оптимизации и корректировке бизнес-проектов;</p>
+                  <p class="lng-servicesText11Item8">юридическое сопровождение реализации бизнес-проектов;</p>
+                  <p class="lng-servicesText12Item8">подготовка документов на представительство (доверенностей, поручений и т.п.).</p>
+                </div>
+                <div class="modal__services-btn-8">
+                  <a href="#" data-fancybox data-src="#modal" href="javascript:;" class="btn btn-primary lng-servicesBtnItem8">Оставить
+                    заявку</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <section class="why section" id="why">
+    <div class="container">
+        <h2 class="title lng-whyTitle">
+            Почему выбирают нас ?
+        </h2>
+        <div class="why__items">
+            <div class="why__item">
+                <img class="why__item-img" src="img/vhy-1.svg" alt="">
+                <h3 class="why__item-title lng-whyItemTitle1">
+                    Профессионализм
+                </h3>
+                <p class="why__item-text lng-whyItemText1">
+                    Юристы группы за последние 2 года выиграли более 200 судебных производств и реализовали более 350 проектов в различных отраслях.
+                </p>
+            </div>
+            <div class="why__item">
+                <img class="why__item-img" src="img/vhy-2.svg" alt="">
+                <h3 class="why__item-title lng-whyItemTitle2">
+                    Уравновешенные цены
+                </h3>
+                <p class="why__item-text lng-whyItemText2">
+                    Вы получите опыт группы юристов за цену ниже средней заработной платы юриста.
+                </p>
+            </div>
+            <div class="why__item">
+                <img class="why__item-img" src="img/vhy-3.svg" alt="">
+                <h3 class="why__item-title lng-whyItemTitle3">
+                    Доступность
+                </h3>
+                <p class="why__item-text lng-whyItemText3">
+                    Работаем не 8 часов в день, а на результат. Специалисты ЮК LECRED в доступе всегда, когда Вы вопрос, поскольку понимаем, что у бизнеса выходных нет.
+                </p>
+            </div>
+            <div class="why__item">
+                <img class="why__item-img" src="img/vhy-4.svg" alt="">
+                <h3 class="why__item-title lng-whyItemTitle4">
+                    Объективная оценка ситуации
+                </h3>
+                <p class="why__item-text lng-whyItemText4">
+                    Вы получаете объективную оценку Ваших дел и варианты улучшения ситуации. Наши юристы не замалчивают проблемы клиента до критической точки, а наоборот целенаправленно ищут реальные варианты решения кейсов.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+      <section class="contacts section" id="contacts">
+    <div class="container">
+      <div class="contacts__inner">
+        <h2 class="title contacts__title lng-contacts" data-aos="fade-down">
+          Контакты
+        </h2>
+        <div class="contacts__items">
+          <div class="contact__item contact__item--map" data-aos="fade-right">
+            <div class="contact__name lng-addressTitle">
+              Address
+            </div>
+            <div class="contact__description lng-address">
+              Kyiv
+            </div>
+          </div>
+          <div class="contact__item contact__item--phone" data-aos="fade-up">
+            <div class="contact__name lng-phone">
+              Phone
+            </div>
+            <ul class="contact__description">
+              <li>+38(068)392-29-96</li>
+              <li>+38(095)169-71-47</li>
+              <li>+38(093)314-86-08</li>
+            </ul>
+          </div>
+          <div class="contact__item contact__item--email" data-aos="fade-left">
+            <div class="contact__name lng-email">
+              Email
+            </div>
+            <div class="contact__description">
+              lecred.ua@gmail.com
+            </div>
+          </div>
+        </div>
+        <div class="networks__title lng-networks">
+          Мы в соцсетях
+        </div>
+        <div class="networks__items" data-aos="flip-up">
+          <div class="networks__item">
+            <a class="networks__item-facebook" href="https://www.facebook.com/lecred.ua.71" target="_blank">
+              <img src="img/facebook.png" alt="">
+            </a>
+          </div>
+          <div class="networks__item">
+            <a class="networks__item-instagram" href="https://www.instagram.com/lecred_ua/" target="_blank">
+              <img src="img/instagram.png" alt="">
+            </a>
+          </div>
+          <div class="networks__item">
+            <a class="networks__item-telegram" href="#">
+              <img src="img/telegram.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <section class="form section" id="form">
+    <div class="container">
+      <div class="form__inner">
+        <div class="form__content">
+          <div class="form__title-box">
+            <h2 class="title form__title lng-formTitle" data-aos="fade-down">
+              Получить консультацию
+            </h2>
+            <div class="form__text lng-formText" data-aos="fade-down">
+              Бесплатный анализ конкретной Вашей проблемы и описание всех рисков, обеспечивает Вам возможность
+              объективно оценить необходимость сотрудничества.
+            </div>
+          </div>
+          <div class="form__box">
+            <div class="form__box-inner">
+              <div class="form__box-left" data-aos="fade-right">
+                <form action="">
+
+                  <!-- Hidden Required Fields -->
+                  <input type="hidden" name="project_name" value="Lecred">
+                  <input type="hidden" name="admin_email" value="lecred.ua@gmail.com">
+                  <input type="hidden" name="form_subject" value="application">
+                  <!-- END Hidden Required Fields -->
+
+                  <label>
+                    <span class="lng-labelEmail">E-mail</span>
+                    <input name="E-mail" type="text">
+                  </label>
+                  <label>
+                    <span class="lng-labelPhone">Контактный телефон</span>
+                    <input name="Телефон" type="text">
+                  </label>
+                  <label>
+                    <span class="lng-labelName">ФИО</span>
+                    <input name="ФИО" type="text">
+                  </label>
+                  <label>
+                    <span class="lng-labelMessage">Сообщение</span>
+                    <textarea name="Сообщение" type="text"></textarea>
+                  </label>
+                  <div class="form__btn">
+                    <button class="lng-formBtn">Оставить заявку</button>
+                  </div>
+                </form>
+              </div>
+              <div class="form__box-right" data-aos="fade-left">
+                <img class="form__box-img" src="img/form-img.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+    <footer class="footer section">
+    <p class="footer__copy lng-footer">
+      © ЮК«Lecred», 2020-2021. Все права защищены
+    </p>
+  </footer>
+
+    <div id="modal">
+        <form action="">
+    
+          <!-- Hidden Required Fields -->
+          <input type="hidden" name="project_name" value="Lecred">
+          <input type="hidden" name="admin_email" value="lecred.ua@gmail.com">
+          <input type="hidden" name="form_subject" value="application">
+          <!-- END Hidden Required Fields -->
+    
+          
+          <label>
+            <span class="lng-popupName">ФИО</span>
+            <input name="Name" type="text" placeholder="">
+          </label>
+          <label>
+            <span class="lng-popupPhone">Ваш телефон</span>
+            <input name="E-mail" type="text" placeholder="">
+            </label>
+          <label>
+            <span class="lng-popupDescription">Опишите Вашу проблему</span>
+            <input name="Description" type="text" placeholder="">
+          </label>
+          <!-- <input type="submit" value="Отправить"> -->
+          <button class="popup-btn lng-popupBtn">Send</button>
+        </form>
+      </div>
+      
+      <div class="button__top">
+        <button class="scroll__button-top" id="scroll__button-top">&#8657;</button>
+      </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
