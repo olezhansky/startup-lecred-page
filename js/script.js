@@ -8730,37 +8730,11 @@ $(function() {
 }
 
 
-// {
-//     const THIRD_COLOR = '#4973ff'
-//     const headerMenuEl = document.querySelector('.header__menu'); 
-//         function showScrolling() {
-//             if (window.pageYOffset > 80) {
-//                 headerMenuEl.style.position = 'fixed'
-//                 headerMenuEl.style.top = '0'
-//                 headerMenuEl.style.backgroundColor = THIRD_COLOR
-//             } else {
-//                 headerMenuEl.style.position = 'absolute'
-//                 if (window.screen.width < 785) {
-//                     headerMenuEl.style.top = '174px' 
-//                 } else {
-//                     headerMenuEl.style.top = '80px'
-//                 }
-//                 headerMenuEl.style.backgroundColor = 'grey'
-//             } 
-           
-            
-//         };
-//         window.addEventListener('scroll', showScrolling);
-// }
+//===================== Fixed menu ======================//
 {
     const THIRD_COLOR = '#4973ff'
     const headerMenuEl = document.querySelector('.header__menu'); 
-
-
-
         function showScrolling() {
-
-
             if (window.screen.width > 785) {
                 if (window.pageYOffset > 80) {
                     headerMenuEl.style.position = 'fixed'
@@ -9009,19 +8983,19 @@ const langArr = {
       ua: "Основні принципи роботи", 
     },
     principlesText1: {
-      en: "The goal is to provide quality legal support to the Client.",
-      ru: "Цель - обеспечение качествой юридической поддержки Клиента.",
-      ua: "Мета - забезпечення якості юридичної підтримки Клієнта.", 
+      en: "The goal is to provide quality legal support to the Client",
+      ru: "Цель - обеспечение качествой юридической поддержки Клиента",
+      ua: "Мета - забезпечення якості юридичної підтримки Клієнта", 
     },
     principlesText2: {
-      en: "No guarantees until a complete study and analysis of your problem.",
-      ru: "Никаких гарантий до момента полного изучения и анализа Вашей проблемы.",
-      ua: "Ніяких гарантій до моменту повного вивчення та аналізу Вашої проблеми.", 
+      en: "No guarantees until a complete study and analysis of your problem",
+      ru: "Никаких гарантий до момента полного изучения и анализа Вашей проблемы",
+      ua: "Ніяких гарантій до моменту повного вивчення та аналізу Вашої проблеми", 
     },
     principlesText3: {
-      en: "Free analysis and description of all risks, provides you with the opportunity to objectively assess the need for cooperation.",
-      ru: "Бесплатный анализ и описание всех рисков, обеспечивает Вам возможность объективно оценить необходимость сотрудничества.",
-      ua: "Безкоштовний аналіз і опис всіх ризиків, забезпечує Вам можливість об'єктивно оцінити необхідність співпраці.", 
+      en: "Free analysis and description of all risks, provides you with the opportunity to objectively assess the need for cooperation",
+      ru: "Бесплатный анализ и описание всех рисков, обеспечивает Вам возможность объективно оценить необходимость сотрудничества",
+      ua: "Безкоштовний аналіз і опис всіх ризиків, забезпечує Вам можливість об'єктивно оцінити необхідність співпраці", 
     },
     servicesMainTitle: {
       en: "Scope of our services",
@@ -9730,5 +9704,3 @@ const langArr = {
     }
   }
   changeLanguage();
-  ;
-  console.log('Hello');;

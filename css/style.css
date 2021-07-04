@@ -825,7 +825,7 @@ li {
 }
 
 .menu__drop {
-  width: 470px;
+  width: 500px;
   position: absolute;
   z-index: 500;
   text-align: left;
@@ -858,10 +858,12 @@ li {
 }
 
 .menu__drop-link {
+  display: block;
   color: #00002c;
   font-weight: 700;
   font-size: 14px;
   line-height: 14px;
+  padding: 20px 0px;
 }
 
 .menu__top-item--list:hover .menu__drop {
@@ -2819,6 +2821,11 @@ body.compensate-for-scrollbar {
     margin-left: 0;
   }
 
+  .header__phone-menu:hover .header__phone-top,
+  .header__phone-menu:hover .header__phone-bottom {
+    display: none;
+  }
+
   .slick-btn,
   .slick-next,
   .slick-prev {
@@ -2931,6 +2938,10 @@ body.compensate-for-scrollbar {
     border-bottom: 1px solid #808080;
     padding: 5px 0;
     color: red;
+  }
+
+  .menu__top-item--list {
+    display: none;
   }
 
   .menu__top-link {
@@ -3181,6 +3192,12 @@ body.compensate-for-scrollbar {
 
   .slider__btn {
     margin-top: 15px;
+  }
+
+  .slider__title h2 {
+    font-size: 22px;
+    line-height: 42px;
+    min-height: 150px;
   }
 
   .about__text {
