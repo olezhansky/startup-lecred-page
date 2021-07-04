@@ -8771,6 +8771,9 @@ $(function() {
         window.addEventListener('scroll', showScrolling);
 }
 
+
+
+
 //============== Highlighting menu items when scrolling =============================
 {
     function trackScrollAndAddActiveClass() {
