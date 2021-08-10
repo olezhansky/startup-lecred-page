@@ -8739,7 +8739,7 @@ $(function() {
                 if (window.pageYOffset > 80) {
                     headerMenuEl.style.position = 'fixed'
                     headerMenuEl.style.top = '0'
-                    headerMenuEl.style.backgroundColor = THIRD_COLOR
+                    // headerMenuEl.style.backgroundColor = FOURTH_COLOR
                 } else {
                     headerMenuEl.style.position = 'absolute'
                     headerMenuEl.style.top = '80px'
@@ -8749,7 +8749,7 @@ $(function() {
                 if (window.pageYOffset > 174) {
                     headerMenuEl.style.position = 'fixed'
                     headerMenuEl.style.top = '0'
-                    headerMenuEl.style.backgroundColor = THIRD_COLOR
+                    // headerMenuEl.style.backgroundColor = FOURTH_COLOR
                 } else {
                     headerMenuEl.style.position = 'absolute'
                     headerMenuEl.style.top = '174px'
@@ -8759,7 +8759,7 @@ $(function() {
                 if (window.pageYOffset > 200) {
                     headerMenuEl.style.position = 'fixed'
                     headerMenuEl.style.top = '0'
-                    headerMenuEl.style.backgroundColor = THIRD_COLOR
+                    // headerMenuEl.style.backgroundColor = FOURTH_COLOR
                 } else {
                     headerMenuEl.style.position = 'absolute'
                     headerMenuEl.style.top = '200px'
@@ -9653,7 +9653,7 @@ const langArr = {
   const dropdownList = document.querySelector(".dropdown__list");
   // const dropdownInput = document.querySelector(".dropdown_input");
   
-  const allLang = ["ru", "ua", "en"];
+  const allLang = ["ru", "ua"];
   // location.href = window.location.pathname + "#en";
   
   dropdownBtn.addEventListener("click", (event) => {
