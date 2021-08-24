@@ -1150,9 +1150,9 @@ li {
 
 .about {
   min-height: 200px;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.1))), url(../img/about-bg.jpg);
-  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.1) 100%), url(../img/about-bg.jpg);
-  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.1) 100%), url(../img/about-bg.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.6))), url(../img/about-bg.jpg);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.6) 100%), url(../img/about-bg.jpg);
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.6) 100%), url(../img/about-bg.jpg);
   background-color: #fff;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1169,7 +1169,7 @@ li {
 }
 
 .about__title {
-  color: #00002c;
+  color: #fff;
 }
 
 .about__text {
@@ -1190,7 +1190,9 @@ li {
 }
 
 .principles {
-  background-image: url(../img/principles-bg.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.6))), url(../img/principles-bg.jpg);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.6) 100%), url(../img/principles-bg.jpg);
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.6) 100%), url(../img/principles-bg.jpg);
   min-height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1248,7 +1250,9 @@ li {
 }
 
 .services {
-  background-color: #808080;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7)));
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%);
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%);
 }
 
 .services__inner {
@@ -1257,6 +1261,7 @@ li {
 
 .services__title {
   color: #00002c;
+  color: #fff;
 }
 
 .services__items {
@@ -1308,7 +1313,7 @@ li {
   color: #00002c;
   background-color: #fff;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 1px;
   padding: 7px 10px;
   line-height: 24px;
@@ -1322,13 +1327,6 @@ li {
 }
 
 .services__item-btn a:hover {
-  background-color: #4973ff;
-  -webkit-box-shadow: 2px 2px 0px 0px #4973ff;
-          box-shadow: 2px 2px 0px 0px #4973ff;
-  color: #fff;
-}
-
-.services__item-btn a:active {
   -webkit-transform: translate(3px, 3px);
       -ms-transform: translate(3px, 3px);
           transform: translate(3px, 3px);
@@ -1502,7 +1500,9 @@ li {
 .form {
   min-height: 500px;
   padding: 50px 0 100px;
-  background-color: grey;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%);
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1515,7 +1515,7 @@ li {
 .form__title {
   font-size: 32px;
   line-height: 36px;
-  color: #00002c;
+  color: #fff;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -1524,7 +1524,7 @@ li {
   font-size: 24px;
   line-height: 30px;
   margin-top: 50px;
-  color: #00002c;
+  color: #fff;
 }
 
 .form__box {
@@ -1599,12 +1599,6 @@ li {
 }
 
 .form__btn button:hover {
-  background-color: #4973ff;
-  color: #00002c;
-  font-weight: 700;
-}
-
-.form__btn button:active {
   -webkit-transform: translate(5px, 5px);
       -ms-transform: translate(5px, 5px);
           transform: translate(5px, 5px);
@@ -1673,7 +1667,7 @@ input[type="submit"] {
   text-align: center;
   line-height: 36px;
   font-style: 24px;
-  color: gray;
+  color: #fff;
 }
 
 .scroll__button-top {
@@ -1688,8 +1682,8 @@ input[type="submit"] {
   font-size: 26px;
   font-weight: 700;
   background-color: grey;
-  -webkit-box-shadow: 0px 0px 10px 10px #4973ff;
-          box-shadow: 0px 0px 10px 10px #4973ff;
+  -webkit-box-shadow: 0px 0px 10px 5px #fff;
+          box-shadow: 0px 0px 10px 5px #fff;
   cursor: pointer;
   text-align: center;
   display: none;
@@ -1698,6 +1692,7 @@ input[type="submit"] {
 
 .scroll__button-top .fa-long-arrow-alt-up {
   color: #fff;
+  background-color: #fff;
   font-size: 25px;
 }
 
